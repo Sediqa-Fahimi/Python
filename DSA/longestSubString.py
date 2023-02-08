@@ -1,4 +1,4 @@
-def longestsubstring(str):
+def longestsubstring(str): # O(N) TIME | O(N) SPACE
     max_length = 0
     curr_length = 0
     substring_set = set()
@@ -17,6 +17,6 @@ def longestsubstring(str):
 
     return max_length
 
-print(longestsubstring("abcabcbb"))
-print(longestsubstring("bbbbb"))
-print(longestsubstring("pwwkew"))
+print(longestsubstring("abcabcbb")) # 3
+print(longestsubstring("bbbbb"))    # 1
+print(longestsubstring("pwwkew"))  # 3
